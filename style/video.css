@@ -44,7 +44,8 @@
     grid-template-columns: 1fr 1fr;
   }
 }
-@media (max-width: 751px) and (min-width: 999px) {
+
+@media (min-width: 751px) and (max-width: 999px) {
   .video-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -53,7 +54,6 @@
   .video-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-}
 .video-time {
   background-color: black;
   color: white;
